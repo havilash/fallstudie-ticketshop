@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36a464e2-af8d-4740-96c4-4432c01e61f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/FailedValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/event/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/event/EventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/event/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/event/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/event/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/PersonRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/PersonResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/person/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/role/AuthorityRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/role/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/role/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/role/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/AuthRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/AuthResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/BbcUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/JwtResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/security/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/ticket/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/ticket/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/ticket/TicketDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/ticket/TicketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/ticket/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/ticket/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/controller/EventControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/controller/PersonControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/controller/TicketControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/EventDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/EventMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/PersonMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/PersonRequestDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/PersonResponseDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/TicketDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/dto/TicketMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/entity/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/entity/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/entity/TicketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/repository/EventRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/repository/PersonRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/repository/TicketRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/security/AuthControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/security/EventControllerSecurityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/security/PersonControllerSecurityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/security/TicketControllerSecurityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/service/EventServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/service/PersonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/data/service/TicketServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/util/DataDTOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/util/DataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketshop" beforeDir="false" afterPath="$PROJECT_DIR$/ticketshop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketshop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ticketshop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/templateproject/TemplateProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketshop/src/main/java/ch/bbcag/backend/ticketshop/TemplateProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketshop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketshop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/templateproject/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ticketshop/src/test/java/ch/bbcag/backend/ticketshop/.gitkeep" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/ticketshop">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/ticketshop">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ticketshop" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2W10aXDJt9b9Oj6qUdJOGDgDx3w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/bsivah/Documents/Fallstudie-Ticketshop/ticketshop",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ticketshop [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ticketshop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ticketshop [test]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36a464e2-af8d-4740-96c4-4432c01e61f7" name="Changes" comment="" />
+      <created>1695884842762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695884842762</updated>
+      <workItem from="1695884843818" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
